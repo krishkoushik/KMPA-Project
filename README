@@ -1,0 +1,27 @@
+README - This is the README file
+
+Dataset files
+    liver
+    heart-c
+    ion
+
+Code Files:
+    TSVM:
+        tsvm.m             - Script to run 10-fold cross validation of TSVM
+            tsvmpred.m     - Helper function to make predictions
+        syn_data.m         - Script to run TSVM on synthetic dataset
+            syndata_pred.m - Helper function to make predictions
+            
+    SVM:
+        svm_crossval.m     - Script to run 10-fold cross validation
+            pred.m         - Helper function to make predictions
+            calc.m         - Helper function to the above 2
+
+    Utility files for SVMs
+        kernel_func.m      - Calculates the kernel gram matrix using gaussian kernel
+        gaussian_kernel.m  - Computes value of rbf kernel
+        linear_kernel.m    - Function to compute linear kernel value
+
+    GMM:
+        gmm.m              - Script to run 10-fold cross validation for GMM
+    
