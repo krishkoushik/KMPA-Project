@@ -1,9 +1,6 @@
-README - This is the README file
+This is the implementation of TwinSVM in matlab and the test files we use are heart-c, ion and liver, which are publicly available.
 
-Dataset files
-    liver
-    heart-c
-    ion
+README - This is the README file
 
 Code Files:
     TSVM:
